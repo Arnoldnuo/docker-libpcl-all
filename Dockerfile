@@ -2,6 +2,7 @@
 FROM ubuntu:14.04
 MAINTAINER linuo@sf
 
+RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
 RUN apt-get update
